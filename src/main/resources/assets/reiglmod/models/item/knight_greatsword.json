@@ -1,0 +1,137 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "reiglmod:item/knight_greatsword",
+		"particle": "reiglmod:item/knight_greatsword"
+	},
+	"elements": [
+		{
+			"from": [7, 10, 6],
+			"to": [8, 25, 11],
+			"faces": {
+				"north": {"uv": [5, 3, 5.5, 10], "texture": "#0"},
+				"east": {"uv": [2.5, 0, 5, 7], "texture": "#0"},
+				"south": {"uv": [5.5, 3, 6, 10], "texture": "#0"},
+				"west": {"uv": [0, 0, 2.5, 7], "texture": "#0"},
+				"up": {"uv": [10, 4, 7.5, 3.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [10, 4, 7.5, 4.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 25, 6],
+			"to": [8, 29, 9],
+			"faces": {
+				"north": {"uv": [4, 7, 4.5, 9], "texture": "#0"},
+				"east": {"uv": [6, 5, 7.5, 7], "texture": "#0"},
+				"south": {"uv": [4.5, 7, 5, 9], "texture": "#0"},
+				"west": {"uv": [6, 3, 7.5, 5], "texture": "#0"},
+				"up": {"uv": [9, 5, 7.5, 4.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [9, 5, 7.5, 5.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 25, 9],
+			"to": [8, 26, 11],
+			"faces": {
+				"north": {"uv": [7.5, 8.5, 8, 9], "texture": "#0"},
+				"east": {"uv": [8.5, 0, 9.5, 0.5], "texture": "#0"},
+				"south": {"uv": [8, 8.5, 8.5, 9], "texture": "#0"},
+				"west": {"uv": [8, 8, 9, 8.5], "texture": "#0"},
+				"up": {"uv": [9.5, 1, 8.5, 0.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [9.5, 1, 8.5, 1.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 27, 9],
+			"to": [8, 30, 11],
+			"faces": {
+				"north": {"uv": [7.5, 5.5, 8, 7], "texture": "#0"},
+				"east": {"uv": [3, 7, 4, 8.5], "texture": "#0"},
+				"south": {"uv": [6, 7.5, 6.5, 9], "texture": "#0"},
+				"west": {"uv": [2, 7, 3, 8.5], "texture": "#0"},
+				"up": {"uv": [9.5, 2, 8.5, 1.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [3, 8.5, 2, 9], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 29, 7],
+			"to": [8, 30, 9],
+			"faces": {
+				"north": {"uv": [8.5, 8.5, 9, 9], "texture": "#0"},
+				"east": {"uv": [8.5, 2.5, 9.5, 3], "texture": "#0"},
+				"south": {"uv": [2, 9, 2.5, 9.5], "texture": "#0"},
+				"west": {"uv": [8.5, 2, 9.5, 2.5], "texture": "#0"},
+				"up": {"uv": [4, 9, 3, 8.5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [7.5, 8.5, 6.5, 9], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 30, 8],
+			"to": [8, 31, 11],
+			"faces": {
+				"north": {"uv": [2.5, 9, 3, 9.5], "texture": "#0"},
+				"east": {"uv": [8, 5.5, 9.5, 6], "texture": "#0"},
+				"south": {"uv": [3, 9, 3.5, 9.5], "texture": "#0"},
+				"west": {"uv": [6.5, 7.5, 8, 8], "texture": "#0"},
+				"up": {"uv": [9.5, 6.5, 8, 6], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [8, 8, 6.5, 8.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [7, 31, 10],
+			"to": [8, 32, 11],
+			"faces": {
+				"north": {"uv": [4, 9, 4.5, 9.5], "texture": "#0"},
+				"east": {"uv": [4.5, 9, 5, 9.5], "texture": "#0"},
+				"south": {"uv": [9, 4.5, 9.5, 5], "texture": "#0"},
+				"west": {"uv": [3.5, 9, 4, 9.5], "texture": "#0"},
+				"up": {"uv": [9.5, 5.5, 9, 5], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [6.5, 9, 6, 9.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Grip",
+			"from": [7, 0, 8],
+			"to": [8, 9, 9],
+			"faces": {
+				"north": {"uv": [0.5, 7, 1, 11.5], "texture": "#0"},
+				"east": {"uv": [1, 7, 1.5, 11.5], "texture": "#0"},
+				"south": {"uv": [1.5, 7, 2, 11.5], "texture": "#0"},
+				"west": {"uv": [0, 7, 0.5, 11.5], "texture": "#0"},
+				"up": {"uv": [7, 9.5, 6.5, 9], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [7.5, 9, 7, 9.5], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"name": "Guard",
+			"from": [6, 9, 5],
+			"to": [9, 10, 12],
+			"faces": {
+				"north": {"uv": [8, 6.5, 9.5, 7], "texture": "#0"},
+				"east": {"uv": [7.5, 3, 11, 3.5], "texture": "#0"},
+				"south": {"uv": [8, 7.5, 9.5, 8], "texture": "#0"},
+				"west": {"uv": [6, 7, 9.5, 7.5], "texture": "#0"},
+				"up": {"uv": [8.5, 1.5, 5, 0], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [8.5, 1.5, 5, 3], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "Sword",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "Blade",
+					"origin": [8, 8, 8],
+					"color": 0,
+					"children": [0, 1, 2, 3, 4, 5, 6]
+				},
+				7,
+				8
+			]
+		}
+	]
+}
